@@ -10,7 +10,7 @@ class ScrollWidget extends StatelessWidget {
         child: Column(
           children: [
             const Text("Top"),
-            TextFormField(),
+            TextFormField(), // comment out this line and test will pass
             const SizedBox(height: 1000),
             const Text("Bottom"),
           ],
