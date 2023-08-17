@@ -9,10 +9,10 @@ class ScrollWidget extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Text("Top"),
+            const Text("Top"),
             TextFormField(),
-            SizedBox(height: 1000),
-            Text("Bottom"),
+            const SizedBox(height: 1000),
+            const Text("Bottom"),
           ],
         ),
       ),
